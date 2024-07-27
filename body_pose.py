@@ -7,7 +7,7 @@ mp_pose = mp.solutions.pose
 pose = mp_pose.Pose()
 mp_draw = mp.solutions.drawing_utils
 
-cap = cv2.VideoCapture('C:/Users/DEV HARSH BAJPAI/Downloads/bicep_curl.mp4')
+cap = cv2.VideoCapture('bicep_curl.mp4')
 
 def angles(frame,p1,p2,p3,h,w):
     x1,y1=(p1.x)*w,(p1.y)*h
